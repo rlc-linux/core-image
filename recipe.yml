@@ -1,12 +1,12 @@
-name: Vanilla Core
+name: RusLand Core
 id: core
 
 stages:
 - id: build
-  base: ghcr.io/vanilla-os/pico:dev
+  base: ghcr.io/rlc-linux/pico:dev
   singlelayer: false
   labels:
-    maintainer: Vanilla OS Contributors
+    maintainer: Ruslan Artemev
   args:
     DEBIAN_FRONTEND: noninteractive
   runs:
